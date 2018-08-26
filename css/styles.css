@@ -8,3 +8,10 @@
   text-align: center;
   margin: 5px;
 }
+#btn{
+  display: none;
+}
+
+#output {
+  display: none;
+}

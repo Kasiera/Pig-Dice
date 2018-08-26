@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Pig Dice</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="js/scripts.js" rel="stylesheet" type="text/js">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <div id = "die1" class="dice">0
-      <div id = "die2" class="dice">0
-        <div class="">
+<head>
+  <title>Pig Dice</title>
+  <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class = 'container'>
+    <h1>Play Pig Dice, A Game of Probability</h1>
+    <div class= 'row'>
+      <h2><strong>Player One</strong></h2>
+      <h6>Total Score: <span class="player1TotalScore"></span></h6>
+      <h6>Turn Score: <span class="player1TurnScore"></span></h6>
 
-        </div>
+          <br>
+          <button id="player1roll" class="btn btn-success">Player 1: Roll Die</button>
+          <button id="player1hold" class="btn btn-danger">Player 1: Hold Turn</button>
+          <br>
 
-      </div>
+        <h2><strong>Player Two</strong></h2>
+        <h6>Total Score: <span class="player2TotalScore"></span></h6>
+        <h6>Turn Score: <span class="player2TurnScore"></span></h6>
+
+          <br>
+          <button id="player2roll" class="btn btn-success">Player 2: Roll Die</button>
+          <button id="player2hold" class="btn btn-danger">Player 2: Hold Turn</button>
+          <br>
 
     </div>
-    <button onclick="rollDice()" name="button">Roll Dice</button>
-    <h2 id = "status" style="clear:left;"></h2>
-  </body>
+  </div>
+<body>
 </html>
