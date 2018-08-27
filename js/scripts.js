@@ -1,3 +1,4 @@
+// Front-end
 function Die() {
   this.dieRoll = 0;
 }
@@ -31,7 +32,7 @@ Player.prototype.hold = function() {
   this.turn = false;
 };
 
-
+// Back-end
 $(document).ready(function() {
   var player1 = new Player ("player1");
   player1.turn = true;
