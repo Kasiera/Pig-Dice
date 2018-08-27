@@ -24,7 +24,14 @@
 .second{
   align-content: right;
 }
-.body{
+body{
   font-weight: 600;
-  background-color: blue;
+  background-color: green;
+  background-repeat: no-repeat;
+}
+h1{
+  font-style: normal;
+  font-size: 100px;
+  font-family: fantasy;
+  color: scarlet;
 }
