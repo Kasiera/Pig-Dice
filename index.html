@@ -2,33 +2,36 @@
 <html>
 <head>
   <title>Pig Dice</title>
-  <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
-  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 </head>
 <body>
   <div class = 'container'>
-    <h1>Play Pig Dice, A Game of Probability</h1>
     <div class= 'row'>
-      <h2><strong>Player One</strong></h2>
-      <h6>Total Score: <span class="player1TotalScore"></span></h6>
-      <h6>Turn Score: <span class="player1TurnScore"></span></h6>
+      <h1><center>Pig Dice Champ</center></h1>
+      <div class="col-md-6">
+        <div class="jumbotron">
+          <h2><strong>Player One</strong></h2>
+          <h6>Total Score: <span class="player1TotalScore"></span></h6>
+          <h6>Turn Score: <span class="player1TurnScore"></span></h6><br>
+            <button id="player1roll" class="btn btn-success">Roll</button>
+            <button id="player1hold" class="btn btn-info">Hold</button><br>
+        </div>
+      </div>
+        <div class="col-md-6">
+          <div class="jumbotron">
+            <h2><strong>Player Two</strong></h2>
+            <h6>Total Score: <span class="player2TotalScore"></span></h6>
+            <h6>Turn Score: <span class="player2TurnScore"></span></h6>
 
-          <br>
-          <button id="player1roll" class="btn btn-success">Player 1: Roll Die</button>
-          <button id="player1hold" class="btn btn-danger">Player 1: Hold Turn</button>
-          <br>
-
-        <h2><strong>Player Two</strong></h2>
-        <h6>Total Score: <span class="player2TotalScore"></span></h6>
-        <h6>Turn Score: <span class="player2TurnScore"></span></h6>
-
-          <br>
-          <button id="player2roll" class="btn btn-success">Player 2: Roll Die</button>
-          <button id="player2hold" class="btn btn-danger">Player 2: Hold Turn</button>
-          <br>
-
+              <br>
+              <button id="player2roll" class="btn btn-success">Roll</button>
+              <button id="player2hold" class="btn btn-danger">Hold</button>
+              <br>
+          </div>
+        </div>
     </div>
   </div>
 <body>

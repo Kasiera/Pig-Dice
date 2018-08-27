@@ -15,3 +15,16 @@
 #output {
   display: none;
 }
+.first{
+  align-content: left;
+
+
+}
+
+.second{
+  align-content: right;
+}
+.body{
+  font-weight: 600;
+  background-color: blue;
+}
