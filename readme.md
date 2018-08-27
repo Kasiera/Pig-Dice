@@ -22,20 +22,20 @@ Example output: The player's total score is generated and displayed
 
 # Setup/Installation Requirements
 https://github.com/Kasiera/Pig-Dice
-cd moringa-school-projects/Pig-Dice
-atom
-edit
-run index.html in browser
+cd moringa-school-projects/Pig-Dice<br>
+atom<br>
+edit<br>
+run index.html in browser<br>
 
 # Known Bugs
 None as at the time of creation
 
 # Technologies used
-HTML
-CSS
-JavaScript
-jQuery
-Terminal
+HTML<br>
+CSS<br>
+JavaScript<br>
+jQuery<br>
+Terminal<br>
 Link To gh-pages
 https://kasiera.github.io/Pig-Dice/
 
