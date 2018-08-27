@@ -17,6 +17,7 @@ function Player(name) {
 
 Player.prototype.roll = function() {
   var die = new Die();
+  $("#output").text("die.dieRoll");
   var rollResult = die.value()
   if (rollResult !== 1) {
     this.turnScore += rollResult;
