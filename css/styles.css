@@ -26,12 +26,15 @@
 }
 body{
   font-weight: 600;
-  background-color: green;
-  background-repeat: no-repeat;
+  background-color: orange;
+
 }
 h1{
   font-style: normal;
   font-size: 100px;
   font-family: fantasy;
   color: scarlet;
+}
+h2{
+  font:
 }

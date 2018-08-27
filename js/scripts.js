@@ -1,10 +1,10 @@
 function Die() {
-  this.dieValue = 0;
+  this.dieRoll = 0;
 }
 
 Die.prototype.value = function() {
-  this.dieValue = Math.floor(Math.random() * (6)) + 1;
-  return this.dieValue;
+  this.dieRoll = Math.floor(Math.random() * (6)) + 1;
+  return this.dieRoll;
 };
 
 function Player(name) {
